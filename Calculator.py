@@ -10,7 +10,7 @@ def AutoRestartCode():
 
     # Get input from the user
     M = float(input("How much money is in your account?: "))
-    APR = float(input("How much is your Annual Percentage Rate?: "))
+    APR = float(input("What is your Annual Percentage Rate?: "))
     Y = int(input("How many years has this been compounding?: "))
 
     # Call the compound_interest function to calculate the future value
