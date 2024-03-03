@@ -22,7 +22,7 @@ def AutoRestartCode():
 def main():
     while True:
         AutoRestartCode()
-        time.sleep(1)  # Optional: Add a short delay between runs
+        time.sleep(1)  # Time delay between runs
 
 if __name__ == "__main__":
     main()
