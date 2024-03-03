@@ -14,7 +14,7 @@ def AutoRestartCode():
     Y = int(input("How many years has this been compounding?: "))
 
     # Call the compound_interest function to calculate the future value
-    FV = compound_interest(M, APR, Y)  # FV
+    FV = compound_interest(M, APR, Y)
 
     # Print the result
     print(f"The future value after {Y} years is: ${FV:.2f}")
