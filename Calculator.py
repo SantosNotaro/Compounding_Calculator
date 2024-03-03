@@ -1,6 +1,6 @@
 import time
 
-def your_code_to_run():
+def AutoRestartCode():
     def compound_interest(pr, r, t):
         n = 1
 
@@ -21,7 +21,7 @@ def your_code_to_run():
 
 def main():
     while True:
-        your_code_to_run()
+        AutoRestartCode()
         time.sleep(1)  # Optional: Add a short delay between runs
 
 if __name__ == "__main__":
