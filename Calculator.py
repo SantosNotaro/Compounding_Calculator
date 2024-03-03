@@ -1,5 +1,5 @@
 import time
-
+# Calculator restarts after total is calculated
 def AutoRestartCode():
     def compound_interest(pr, r, t):
         n = 1
