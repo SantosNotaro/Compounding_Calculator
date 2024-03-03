@@ -1,7 +1,7 @@
 import time
 # Calculator restarts after total is calculated
 def AutoRestartCode():
-    def compound_interest(pr, r, t):
+    def compound_interest(pr, r, t): #Compound Interest Formula
         n = 1
 
         FV = pr * (1 + r / (n * 100)) ** (n * t)
